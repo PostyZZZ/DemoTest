@@ -55,5 +55,13 @@ namespace DemoTest
                 }
             }
         }
+
+
+        private void btn_reg_Click(object sender, EventArgs e)
+        {
+            var Register = new RegisterForm();
+            Register.Show();
+            this.Hide();
+        }
     }
 }
